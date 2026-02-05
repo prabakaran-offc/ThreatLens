@@ -1,11 +1,18 @@
-# CyberPulse
+# ThreatLens
 
-A cybersecurity threat monitoring system that integrates with AlienVault OTX.
+A cybersecurity threat monitoring system that integrates with AlienVault OTX
+to collect, analyze, and visualize real-time threat intelligence.
 
 ## Features
-- Fetches latest cyber threats from AlienVault OTX
-- AI-powered chat system for threat analysis
-- RESTful API endpoints for threat data
+- OTX pulse ingestion
+- Malicious IP / domain detection
+- IOC monitoring
+- Real-time alerts
 
-## Setup
-1. Clone the repository 
+## Tech Stack
+- Python
+- AlienVault OTX API
+- REST APIs
+
+## Use Case
+SOC monitoring, threat analysis, and cyber awareness
